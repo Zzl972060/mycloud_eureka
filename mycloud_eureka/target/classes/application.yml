@@ -1,0 +1,14 @@
+server:
+  port: 7002
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:7002/eureka/
+    register-with-eureka: false
+    fetch-registry: false
+security:
+  basic:
+    enabled: true
+  user:
+    name: zzl
+    password: 972060
